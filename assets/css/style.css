@@ -644,6 +644,7 @@ section {
 
 .icon-boxes .icon {
   margin: 0 auto 20px auto;
+  
   display: inline-block;
   text-align: center;
 }
@@ -676,7 +677,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/hero-bg1.jpg") center no-repeat;
+  background: url("../img/hero-bg1.jpg")top center no-repeat;
   position: relative;
 }
 
