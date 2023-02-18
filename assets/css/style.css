@@ -127,7 +127,7 @@ h6 {
 --------------------------------------------------------------*/
 #topbar {
   height: 60px;
- padding-top: 5 px;
+  padding-top: 5 px;
   font-size: 14px;
   transition: all 0.5s;
   overflow: hidden;
@@ -170,7 +170,6 @@ h6 {
   display: inline-block;
   transition: 0.3s;
   border-radius: 50px;
-  
 }
 
 #topbar .cta a:hover {
@@ -185,6 +184,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
+  top: 20px;
 }
 
 #header.header-scrolled {
@@ -523,7 +523,7 @@ h6 {
 
 #hero h2 {
   color: white;
-  margin-top:-40px;
+  margin-top: -40px;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -648,7 +648,7 @@ section {
 
 .icon-boxes .icon {
   margin: 0 auto 20px auto;
-  
+
   display: inline-block;
   text-align: center;
 }
@@ -681,7 +681,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/hero-bg1.jpg")top center no-repeat;
+  background: url("../img/hero-bg1.jpg") top center no-repeat;
   position: relative;
 }
 
