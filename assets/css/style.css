@@ -203,7 +203,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -488,7 +488,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/placement.jpg") top center;
+  background: url("../img/HR.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -522,8 +522,9 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
+  color: white;
+  margin-top:-40px;
+  margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
