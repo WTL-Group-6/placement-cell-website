@@ -10,6 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  /* color: #ffffff; */
   color: #444444;
 }
 
@@ -1126,8 +1127,6 @@ section {
 .cta .cta-btn:hover {
   background: #f6b024;
 }
-
-
 
 @media (max-width: 1024px) {
   .cta {
@@ -2469,7 +2468,10 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
+.count-box {
+  font-size: 25px;
+  color: #ffffff;
+}
 #footer .credits a {
   color: #f6b024;
 }
