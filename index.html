@@ -289,10 +289,59 @@
                 <h4 class="title"><a href="">Mission</a></h4>
                 <p class="description">
                   To facilitate the sprouting of professionally competent 
-                  and socially sensitive social workers with a global outlook 
+                  and socially sensitive social workers with<span id="pointss">...</span><span id="moreTextt"> a global outlook 
                   to proactively respond to emerging societal concerns, 
-                  capable of addressing life challenges.
+                  capable of addressing life challenges.</span>
                 </p>
+                <button onclick="toggleTextt()" id="textButtonn">Show more</button>
+                <script>
+                  function toggleText() {
+                    
+                      // Get all the elements from the page
+                      var points = 
+                          document.getElementById("pointss");
+                    
+                      var showMoreText =
+                          document.getElementById("moreTextt");
+                    
+                      var buttonText =
+                          document.getElementById("textButtonn");
+                    
+                      // If the display property of the dots 
+                      // to be displayed is already set to 
+                      // 'none' (that is hidden) then this 
+                      // section of code triggers
+                      if (points.style.display === "none") {
+                    
+                          // Hide the text between the span
+                          // elements
+                          showMoreText.style.display = "none";
+                    
+                          // Show the dots after the text
+                          points.style.display = "inline";
+                    
+                          // Change the text on button to 
+                          // 'Show More'
+                          buttonText.innerHTML = "Show More";
+                      }
+                    
+                      // If the hidden portion is revealed,
+                      // we will change it back to be hidden
+                      else {
+                    
+                          // Show the text between the
+                          // span elements
+                          showMoreText.style.display = "inline";
+                    
+                          // Hide the dots after the text
+                          points.style.display = "none";
+                    
+                          // Change the text on button
+                          // to 'Show Less'
+                          buttonText.innerHTML = "Show Less";
+                      }
+                  }
+              </script>
               </div>
             </div>
 
