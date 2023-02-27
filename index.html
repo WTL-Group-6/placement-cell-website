@@ -308,13 +308,13 @@
                 </p>
                 <button onclick="toggleTextt()" id="textButtonn">Show more</button>
                 <script>
-                  function toggleText() {
+                  function toggleTextt() {
                     
                       // Get all the elements from the page
-                      var points = 
+                      var pointss = 
                           document.getElementById("pointss");
                     
-                      var showMoreText =
+                      var showMoreTextt =
                           document.getElementById("moreTextt");
                     
                       var buttonText =
@@ -324,14 +324,14 @@
                       // to be displayed is already set to 
                       // 'none' (that is hidden) then this 
                       // section of code triggers
-                      if (points.style.display === "none") {
+                      if (pointss.style.display === "none") {
                     
                           // Hide the text between the span
                           // elements
-                          showMoreText.style.display = "none";
+                          showMoreTextt.style.display = "none";
                     
                           // Show the dots after the text
-                          points.style.display = "inline";
+                          pointss.style.display = "inline";
                     
                           // Change the text on button to 
                           // 'Show More'
@@ -344,10 +344,10 @@
                     
                           // Show the text between the
                           // span elements
-                          showMoreText.style.display = "inline";
+                          showMoreTextt.style.display = "inline";
                     
                           // Hide the dots after the text
-                          points.style.display = "none";
+                          pointss.style.display = "none";
                     
                           // Change the text on button
                           // to 'Show Less'
